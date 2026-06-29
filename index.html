@@ -250,8 +250,8 @@ footer { background: #333; color: white; padding: 80px 20px 40px; margin-top: 0;
 <div class="status-bubble">
 <p class="bubble-title" id="origin-label" style="color: var(--fedex-purple);">FROM</p>
 <p class="bubble-location" id="origin-location">
-Sender: Carl Pickens<br>
-Warsaw, Poland
+FedEx Warsaw Ground Facility<br>
+Poland
 </p>
 <p class="bubble-date" id="origin-date">Package Picked Up<br>Monday, 29 June</p>
 </div>
@@ -329,7 +329,7 @@ document.getElementById('displayNum').innerText = inputVal;
 
 // Keeping the focus at FROM explicitly
 document.getElementById('origin-label').innerText = "FROM";
-document.getElementById('origin-location').innerHTML = "Sender: Carl Pickens <br> Warsaw, Poland <br><br> <strong>Destination Scheduled:</strong><br>135 Lisa Dr, Verona PA 15147-1538";
+document.getElementById('origin-location').innerHTML = "FedEx Warsaw Ground Facility <br> Poland <br><br> <strong>Destination Scheduled:</strong><br>135 Lisa Dr, Verona PA 15147-1538";
 document.getElementById('origin-date').innerHTML = "Status: Picked Up / Pending Movement <br> Monday, 29 June";
 
 // Keeping future stages in greyed-out pending state until manually updated later by time
